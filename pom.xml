@@ -13,7 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -42,6 +41,30 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<configuration>
+				    <from>
+					<image>openjdk:8u171-alpine</image>
+					<auth>
+					    <username>admin</username>
+					    <password>13001027</password>
+					</auth>
+				    </from>
+				    <to>
+					<image>admin>/${project.artifactId}:${project.version}</image>
+					<auth>
+					    <username>admin</username>
+					    <password>13001027</password>
+					</auth>
+				    </to>
+				    <container>
+					<jvmFlags>
+					    <jvmFlag>-Xms512m</jvmFlag>
+					    <jvmFlag>-Xmx512m</jvmFlag>
+					</jvmFlags>
+				    </container>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
