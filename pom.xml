@@ -47,11 +47,8 @@
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>1.8.0</version>
 				<configuration>
-				<from>
-				    <image>openjdk:alpine</image>
-				</from>
 				<to>
-				    <image>192.168.77.11:10001/repository/dockerrepo/demoapp3/tags/new</image>
+				    <image>192.168.77.11:10001/repository/dockerrepo/demo</image>
 				<auth>
 				    <username>admin</username>
 				    <password>13001027</password>
