@@ -48,7 +48,7 @@
 				<version>1.8.0</version>
 				<configuration>
 				<to>
-				    <image>192.168.77.11:10001/repository/dockerrepo/demo</image>
+				    <image>192.168.77.11:10001/repository/nita-docker-repository/demo</image>
 				<auth>
 				    <username>admin</username>
 				    <password>13001027</password>
